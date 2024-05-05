@@ -1,12 +1,16 @@
 # MedBN-robust-test-time-adpatation
 [CVPR 2024] Official implementation of [MedBN: Robust Test Time Adaptation against Malicious Test Samples](https://arxiv.org/abs/2403.19326) by Hyejin Park\*, Jeongyeon Hwang\*, Sunung Mun, Sangdon Park, and Jungseul Ok
 
+You can visit [our project page](http://hyejin-s.github.io/medbn)!
 
 ## Requirements
 - [RobustBench](https://github.com/RobustBench/robustbench)
 
 ## Datasets
 You need to download the CIFAR10-C and CIFAR100-C data to `../data/`
+
+## Pretrained Model
+We utilize a pre-trained model from the [DIA](https://github.com/inspire-group/tta_risk) repository for the CIFAR dataset, and from [RobustBench](https://github.com/RobustBench/robustbench) for the ImageNet dataset.
 
 ## Usage
 
