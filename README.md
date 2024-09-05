@@ -27,10 +27,11 @@ If you have any questions, please contact Hyejin Park by [parkebbi2@gmail.com]
 ## Citation
 If our MedBN method are helpful in your research, please consider citing our paper:
 ```
-@article{park2024medbn,
+@inproceedings{park2024medbn,
   title={MedBN: Robust Test-Time Adaptation against Malicious Test Samples},
   author={Park, Hyejin and Hwang, Jeongyeon and Mun, Sunung and Park, Sangdon and Ok, Jungseul},
-  journal={arXiv preprint arXiv:2403.19326},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={5997--6007},
   year={2024}
 }
 ```
